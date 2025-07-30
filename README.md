@@ -29,34 +29,7 @@
 
 ## 📂 Project Structure
 
-ResumeCrafter/
-│
-├── backend/                      # (optional, if you want to separate backend code)
-│   └── controllers/              # Logic handlers (e.g., Gemini integration)
-│   └── routes/                   # Express routes
-│   └── services/                 # PDF generation, file handling
-│   └── utils/                    # Helper functions
-│   └── middleware/               # Multer, error handling, etc.
-│   └── config/                   # Config files (e.g., env loader)
-│   └── server.js                 # Main Express server
-│   └── package.json              # Backend dependencies
-├── frontend/                     # React app (created via create-react-app)
-│   ├── public/                   # index.html, favicon, etc.
-│   └── src/
-│       ├── components/           # React components (Input, UploadForm, Result)
-│       ├── pages/                # Page-level views
-│       ├── styles/               # Tailwind or CSS modules
-│       ├── App.js
-│       ├── index.js
-│       └── api.js                # Axios or fetch wrapper
-│
-├── uploads/                     # Temporarily uploaded resume files (ignored in git)
-├── outputs/                     # Generated PDF resumes (ignored in git)
-│
-├── .env                         # Environment variables (Gemini API key)
-├── .gitignore                   # Git ignore rules
-├── README.md                    # Project info
-
+<pre><code> ``` ResumeCrafter/ │ ├── backend/ │ ├── controllers/ # Gemini AI logic │ ├── routes/ # Express routes │ ├── services/ # PDF creation & file logic │ ├── utils/ # Helper functions │ ├── middleware/ # Multer, error handling │ ├── config/ # Environment configs │ └── server.js # Main Express app │ ├── frontend/ │ ├── public/ # index.html, assets │ └── src/ │ ├── components/ # Reusable React components │ ├── pages/ # Main pages │ ├── styles/ # Tailwind or CSS │ ├── App.js │ ├── index.js │ └── api.js # API functions │ ├── uploads/ # Temp uploaded files (gitignored) ├── outputs/ # Final generated PDFs (gitignored) ├── .env # Gemini API key (gitignored) ├── .gitignore ├── LICENSE └── README.md ``` </code></pre>
 
 ## Setup Instructions
 
