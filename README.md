@@ -64,24 +64,24 @@
  
  cd ResumeCrafter
 
-#2.Install Backend Dependencies
+# 2.Install Backend Dependencies
 
  npm install
 
-#3.Install Frontend Dependencies
+# 3.Install Frontend Dependencies
 
  cd frontend
  
  npm install
 
-#4.Start the Backend Server
+# 4.Start the Backend Server
 
  cd ..
  
  node server.js
 
 
-#5.In a second terminal, run frontend
+# 5.In a second terminal, run frontend
 
  cd frontend
  
