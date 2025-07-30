@@ -66,25 +66,25 @@ Create a `.env` file in the root with:
 ```env
 GEMINI_API_KEY=your_actual_api_key
 ```
-📦 Setup Instructions
+📦 Setup Instrctions
 # Clone the repo
 git clone https://github.com/murtazasgit/ResumeCrafter.git
-cd ResumeCrafter
+``` cd ResumeCrafter```
 
 # Install backend dependencies
-npm install
+```npm install```
 
 # Install frontend dependencies
-cd frontend
-npm install
+```cd frontend```
+```npm install```
 
 # Go back and run backend
-cd ..
-node server.js
+```cd ..```
+```node server.js```
 
 # In a second terminal, run frontend
-cd frontend
-npm start
+```cd frontend```
+```npm start```
 
 
  ## Example Usage
