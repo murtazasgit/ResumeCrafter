@@ -61,17 +61,23 @@
 
 # 1.Clone the repo
  git clone https://github.com/murtazasgit/ResumeCrafter.git
+ 
  cd ResumeCrafter
 
 2.Install Backend Dependencies
+
  npm install
 
 3.Install Frontend Dependencies
+
  cd frontend
+ 
  npm install
 
 4.Start the Backend Server
+
  cd ..
+ 
  node server.js
 
 
