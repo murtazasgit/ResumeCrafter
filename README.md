@@ -88,6 +88,7 @@ git clone https://github.com/murtazasgit/ResumeCrafter.git
 ```npm start```
 
 
+
  ## Example Usage
 
 1.Upload a resume PDF
