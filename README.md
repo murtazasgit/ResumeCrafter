@@ -54,7 +54,6 @@
 ├── outputs/ # Final generated PDFs (gitignored)
 ├── .env # Gemini API key (gitignored)
 ├── .gitignore
-├── LICENSE
 └── README.md ``` </code></pre>
 
 ## Setup Instructions
