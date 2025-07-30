@@ -56,35 +56,35 @@
 ├── .gitignore
 └── README.md ``` </code></pre>
 
-## Setup Instructions
 
-# 1.Clone the repo
- git clone https://github.com/murtazasgit/ResumeCrafter.git
- 
- cd ResumeCrafter
+---
 
-# 2.Install Backend Dependencies
+## ⚙️ Environment Variables
 
- npm install
+Create a `.env` file in the root with:
 
-# 3.Install Frontend Dependencies
+```env
+GEMINI_API_KEY=your_actual_api_key
+```
+📦 Setup Instructions
+# Clone the repo
+git clone https://github.com/murtazasgit/ResumeCrafter.git
+cd ResumeCrafter
 
- cd frontend
- 
- npm install
+# Install backend dependencies
+npm install
 
-# 4.Start the Backend Server
+# Install frontend dependencies
+cd frontend
+npm install
 
- cd ..
- 
- node server.js
+# Go back and run backend
+cd ..
+node server.js
 
-
-# 5.In a second terminal, run frontend
-
- cd frontend
- 
- npm start
+# In a second terminal, run frontend
+cd frontend
+npm start
 
 
  ## Example Usage
