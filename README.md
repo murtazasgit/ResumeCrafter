@@ -60,29 +60,32 @@
 ## Setup Instructions
 
 # 1.Clone the repo
-git clone https://github.com/murtazasgit/ResumeCrafter.git
-cd ResumeCrafter
+ git clone https://github.com/murtazasgit/ResumeCrafter.git
+ cd ResumeCrafter
 
 2.Install Backend Dependencies
-npm install
+ npm install
 
 3.Install Frontend Dependencies
-cd frontend
-npm install
+ cd frontend
+ npm install
 
 4.Start the Backend Server
-cd ..
-node server.js
+ cd ..
+ node server.js
 
 
 5.In a second terminal, run frontend
-cd frontend
-npm start
+ cd frontend
+ npm start
 
 
  ## Example Usage
 
 1.Upload a resume PDF
+
 2.Paste a job description
+
 3.Click "generate"
+
 4.Download your new AI-optimized resume and CV PDF 🎯
