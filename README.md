@@ -29,7 +29,33 @@
 
 ## 📂 Project Structure
 
-<pre><code> ``` ResumeCrafter/ │ ├── backend/ │ ├── controllers/ # Gemini AI logic │ ├── routes/ # Express routes │ ├── services/ # PDF creation & file logic │ ├── utils/ # Helper functions │ ├── middleware/ # Multer, error handling │ ├── config/ # Environment configs │ └── server.js # Main Express app │ ├── frontend/ │ ├── public/ # index.html, assets │ └── src/ │ ├── components/ # Reusable React components │ ├── pages/ # Main pages │ ├── styles/ # Tailwind or CSS │ ├── App.js │ ├── index.js │ └── api.js # API functions │ ├── uploads/ # Temp uploaded files (gitignored) ├── outputs/ # Final generated PDFs (gitignored) ├── .env # Gemini API key (gitignored) ├── .gitignore ├── LICENSE └── README.md ``` </code></pre>
+<pre><code> ```ResumeCrafter/
+│
+├── backend/
+│ ├── controllers/ # Gemini AI logic
+│ ├── routes/ # Express routes
+│ ├── services/ # PDF creation & file logic
+│ ├── utils/ # Helper functions
+│ ├── middleware/ # Multer, error handling
+│ ├── config/ # Environment configs
+│ └── server.js # Main Express app
+│
+├── frontend/
+│ ├── public/ # index.html, assets
+│ └── src/
+│ ├── components/ # Reusable React components
+│ ├── pages/ # Main pages
+│ ├── styles/ # Tailwind or CSS
+│ ├── App.js
+│ ├── index.js
+│ └── api.js # API functions
+│
+├── uploads/ # Temp uploaded files (gitignored)
+├── outputs/ # Final generated PDFs (gitignored)
+├── .env # Gemini API key (gitignored)
+├── .gitignore
+├── LICENSE
+└── README.md ``` </code></pre>
 
 ## Setup Instructions
 
@@ -37,18 +63,18 @@
 git clone https://github.com/murtazasgit/ResumeCrafter.git
 cd ResumeCrafter
 
-# Install backend dependencies
+Install Backend Dependencies
 npm install
 
-# Install frontend dependencies
+Install Frontend Dependencies
 cd frontend
 npm install
 
-# Go back and run backend
+Start the Backend Server
 cd ..
 node server.js
 
-# In a second terminal, run frontend
+In a second terminal, run frontend
 cd frontend
 npm start
 
