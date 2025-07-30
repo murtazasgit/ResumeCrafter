@@ -69,6 +69,7 @@ GEMINI_API_KEY=your_actual_api_key
 ## 📦 Setup Instrctions
 # 1.Clone the repo
 git clone https://github.com/murtazasgit/ResumeCrafter.git
+
 ``` cd ResumeCrafter```
 
 # 2.Install backend dependencies
