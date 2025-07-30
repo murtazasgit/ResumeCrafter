@@ -66,6 +66,7 @@ Create a `.env` file in the root with:
 ```env
 GEMINI_API_KEY=your_actual_api_key
 ```
+---
 ## 📦 Setup Instrctions
 # 1.Clone the repo
 git clone https://github.com/murtazasgit/ResumeCrafter.git
