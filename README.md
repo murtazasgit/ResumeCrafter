@@ -55,7 +55,6 @@ ResumeCrafter/
 │
 ├── .env                         # Environment variables (Gemini API key)
 ├── .gitignore                   # Git ignore rules
-├── LICENSE                      # MIT License
 ├── README.md                    # Project info
 
 
